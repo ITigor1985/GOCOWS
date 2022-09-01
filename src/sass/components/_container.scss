@@ -1,9 +1,9 @@
 .container {
   margin: 0 auto;
   padding: 0 0;
-  width: 320px;
+  min-width: 320px;
   @include min-width('medium') {
-    width: 668px;
+    min-width: 668px;
     padding-left: 50px;
     padding-right: 50px;
   }

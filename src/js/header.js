@@ -1,0 +1,16 @@
+(() => {
+  const refs = {
+    openModalBtn: document.querySelector('[data-modal-open]'),
+    closeModalBtn: document.querySelector('[data-modal-close]'),
+    modal: document.querySelector('[data-modal]'),
+  };
+
+  refs.openModalBtn.addEventListener('click', toggleModal);
+  refs.closeModalBtn.addEventListener('click', toggleModal);
+
+  function toggleModal() {
+    refs.openModalBtn.classList.toggle('visually-hidden');
+    refs.closeModalBtn.classList.toggle('visually-hidden');
+    refs.modal.classList.toggle('visually-hidden');
+  }
+})();
