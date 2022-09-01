@@ -1,22 +1,22 @@
 {
-  "name": "plastering",
+  "name": "gocows",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://ITigor1985.github.io/plastering",
+  "homepage": "https://ITigor1985.github.io/gocows",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url ./"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ITigor1985/plastering.git"
+    "url": "git+https://github.com/ITigor1985/gocows.git"
   },
   "keywords": [],
   "author": "Igor Tarasov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ITigor1985/plastering/issues"
+    "url": "https://github.com/ITigor1985/gocows/issues"
   },
   "devDependencies": {
     "file-loader": "^6.2.0",
