@@ -1,62 +1,65 @@
 .cards {
   padding: 15px 40px;
 }
-.contacts__container-gallery {
+
+.cards__container-gallery {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
-  gap: 15px;
+  gap: 25px;
 }
-.contacts__gallery-item {
+.cards__gallery-item {
   display: grid;
-  grid-template-rows: 1fr 99px;
+  grid-template-rows: 1fr 225px;
   transition: box-shadow 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   &:hover {
     box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.4);
   }
 }
-.contacts-person {
+.cards__container-img {
+  margin-bottom: 30px;
+}
+.cards-person {
   min-width: 100%;
 }
-.contacts__container-contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #333333;
+.cards .description {
+  margin-bottom: 20px;
 }
-.contacts-person {
-  margin: 0 auto;
+.cards .title {
+  margin-bottom: 20px;
 }
-
-.contacts__name {
-  font-weight: 400;
-  font-size: 23px;
-  line-height: 29px;
-  margin-bottom: 12px;
-}
-.contacts__position {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
+.cards__container-contact {
+  padding-left: 3px;
+  padding-right: 2px;
+  font-size: 14px;
+  font-family: 'PlayfairDisplay';
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
 }
 
 @media screen and (min-width: 768px) {
   .cards {
     padding: 30px 50px;
   }
-  .contacts__container-gallery {
+  .cards__container-gallery {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    gap: 60px;
-    padding-left: 32px;
-    padding-right: 32px;
+    gap: 20px;
   }
-  .contacts__gallery-item {
-    grid-template-rows: 1fr 101px;
+  .cards__gallery-item {
+    grid-template-rows: 1fr 225px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
+  .cards__container-gallery {
+    gap: 60px;
+  }
   .cards {
     padding: 50px 80px;
+  }
+  .cards .description {
+    margin-bottom: 30px;
+  }
+  .cards .title {
+    margin-bottom: 40px;
   }
 }
