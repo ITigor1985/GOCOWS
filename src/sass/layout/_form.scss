@@ -7,6 +7,14 @@
   text-align: center;
   margin-bottom: 75px;
 }
+.form__input_container {
+  position: relative;
+}
+.form__send-icon {
+  position: absolute;
+  right: 0px;
+  bottom: 14px;
+}
 .form__input {
   background-color: #b6bec1;
   width: 100%;
