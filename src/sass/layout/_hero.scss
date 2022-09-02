@@ -1,6 +1,7 @@
 .hero {
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 15px;
 }
 .mySlides {
   display: none;
@@ -45,11 +46,13 @@ img {
   .hero {
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 30px;
   }
 }
 @media screen and(min-width: 1200px) {
   .hero {
     padding-left: 70px;
     padding-right: 70px;
+    padding-bottom: 50px;
   }
 }
