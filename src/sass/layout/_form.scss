@@ -15,8 +15,15 @@
   right: 0px;
   bottom: 14px;
 }
+.font {
+  font-size: 18px;
+  font-family: 'PlayfairDisplay';
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+}
 .form__input {
   background-color: #b6bec1;
+  font-family: 'PlayfairDisplay';
   width: 100%;
   border-top: none;
   border-right: none;
@@ -26,8 +33,20 @@
 }
 .form__form {
   display: block;
+  min-width: 290px;
   max-width: 430px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+
+@media screen and(min-width:768px) {
+  .font {
+    font-size: 19px;
+  }
+}
+@media screen and(min-width:1200px) {
+  .font {
+    font-size: 30px;
+  }
 }

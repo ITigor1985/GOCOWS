@@ -1,17 +1,26 @@
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Inconsolata';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../fonts/Roboto-Regular.woff) format('woff'),
-    url(../fonts/Roboto-Regular.woff2) format('woff2');
+  src: url(../fonts/Inconsolata-Regular.woff) format('woff'),
+    url(../fonts/Inconsolata-Regular.woff2) format('woff2');
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'PlayfairDisplay';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-display: swap;
-  src: url(../fonts/Roboto-Medium.woff) format('woff'),
-    url(../fonts/Roboto-Medium.woff2) format('woff2');
+  src: url(../fonts/PlayfairDisplay-Regular.woff) format('woff'),
+    url(../fonts/PlayfairDisplay-Regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/Ubuntu-Light.woff) format('woff'),
+    url(../fonts/Ubuntu-Light.woff2) format('woff2');
 }
