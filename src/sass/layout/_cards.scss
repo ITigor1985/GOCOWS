@@ -50,12 +50,13 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  .cards {
+    padding: 50px 80px 120px 80px;
+  }
   .cards__container-gallery {
     gap: 60px;
   }
-  .cards {
-    padding: 50px 80px 120px;
-  }
+
   .cards .description {
     margin-bottom: 30px;
   }

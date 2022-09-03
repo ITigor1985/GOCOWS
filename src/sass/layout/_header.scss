@@ -74,7 +74,7 @@
   }
 }
 
-@include min-width('large') {
+@media screen and(min-width:1200px) {
   .logo {
     font-size: 30px;
     font-family: 'Inconsolata';
