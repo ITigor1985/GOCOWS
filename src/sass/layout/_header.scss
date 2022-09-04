@@ -1,9 +1,9 @@
 .header {
-  position: relative;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 .header .container {
+  position: relative;
   display: flex;
   align-items: center;
 }
@@ -28,10 +28,10 @@
   color: rgb(98, 98, 98);
   text-transform: uppercase;
   line-height: 1.714;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px;
   position: absolute;
   width: 100%;
+  max-width: 738px;
   top: 100%;
   background-color: white;
   display: flex;
