@@ -1,0 +1,23 @@
+.getaway3 .container {
+  display: flex;
+  padding: 15px 15px;
+}
+.about_me_wrapper {
+  position: sticky;
+  top: 0;
+  min-width: 275px;
+  height: 500px;
+  margin-left: 50px;
+  background-color: aqua;
+}
+
+@media screen and (min-width: 768px) {
+  .getaway3 {
+    padding: 30px 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .getaway3 {
+    padding: 50px 80px;
+  }
+}
