@@ -19,11 +19,6 @@ main {
   flex: 1 auto;
 }
 
-body {
-  font-family: var(--main-font);
-  color: var(--text-color);
-  transition: all 250ms ease-in-out;
-}
 // body::-webkit-scrollbar {
 //   width: 0 !important;
 // }

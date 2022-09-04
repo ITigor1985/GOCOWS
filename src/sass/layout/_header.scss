@@ -7,14 +7,15 @@
   display: flex;
   align-items: center;
 }
+
 .logo {
   font-size: 30px;
   font-family: 'Inconsolata';
-
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   line-height: 0.8;
 }
+
 .burger__menu {
   margin-left: auto;
 }
@@ -44,13 +45,6 @@
   z-index: 100;
 }
 @media screen and(min-width:768px) {
-  .logo {
-    font-size: 30px;
-    font-family: 'Inconsolata';
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    line-height: 0.8;
-  }
   .header {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -78,29 +72,13 @@
 }
 
 @media screen and(min-width:1200px) {
-  .logo {
-    font-size: 30px;
-    font-family: 'Inconsolata';
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    line-height: 0.8;
-  }
   .header {
     padding-top: 70px;
     padding-bottom: 70px;
   }
   .nav {
-    margin-left: auto;
-    display: flex;
     :not(:last-child) {
       margin-right: 120px;
     }
-  }
-  .nav_item {
-    font-size: 14px;
-    font-family: 'PlayfairDisplay';
-    color: rgb(98, 98, 98);
-    text-transform: uppercase;
-    line-height: 1.714;
   }
 }
