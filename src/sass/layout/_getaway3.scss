@@ -2,13 +2,9 @@
   display: flex;
   padding: 15px 15px;
 }
+
 .about_me_wrapper {
-  position: sticky;
-  top: 0;
-  min-width: 275px;
-  height: 500px;
-  margin-left: 50px;
-  background-color: aqua;
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -19,5 +15,51 @@
 @media screen and (min-width: 1200px) {
   .getaway3 {
     padding: 50px 80px;
+  }
+  .about_me_wrapper {
+    display: block;
+    position: sticky;
+    top: 0;
+    min-width: 275px;
+    height: 100vh;
+    margin-left: 50px;
+  }
+  .about_me__img-wrapper {
+    margin-bottom: 20px;
+  }
+  .title_margin {
+    margin-bottom: 15px;
+  }
+  .about__me_content {
+    font-size: 14px;
+    font-family: 'PlayfairDisplay';
+    color: rgb(98, 98, 98);
+    line-height: 1.714;
+    margin-bottom: 15px;
+  }
+  .justify-content-start {
+    justify-content: flex-start;
+    margin-bottom: 15px;
+  }
+  .description-margin {
+    margin-bottom: 15px;
+  }
+  .font-size {
+    font-size: 16px;
+  }
+
+  .about_me-posts {
+    list-style-type: disc;
+    list-style-position: inside;
+    color: #b4ae96;
+  }
+  .about_me-post .title {
+    margin-bottom: 20px;
+    font-size: 16px;
+    display: inline-block;
+  }
+  .about_me-post .description {
+    margin-bottom: 15px;
+    margin-left: 22px;
   }
 }
